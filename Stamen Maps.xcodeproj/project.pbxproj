@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		796582D2154D0FF200E66B2C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 796582D1154D0FF200E66B2C /* UIKit.framework */; };
+		796582D4154D0FF200E66B2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 796582D3154D0FF200E66B2C /* Foundation.framework */; };
+		796582D6154D0FF200E66B2C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 796582D5154D0FF200E66B2C /* CoreGraphics.framework */; };
+		796582D8154D0FF200E66B2C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 796582D7154D0FF200E66B2C /* CoreData.framework */; };
+		796582DE154D0FF300E66B2C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 796582DC154D0FF300E66B2C /* InfoPlist.strings */; };
+		796582E0154D0FF300E66B2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 796582DF154D0FF300E66B2C /* main.m */; };
+		796582E4154D0FF300E66B2C /* StamenAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 796582E3154D0FF300E66B2C /* StamenAppDelegate.m */; };
+		796582E6154D0FF300E66B2C /* Stamen Maps.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 796582E5154D0FF300E66B2C /* Stamen Maps.entitlements */; };
+		796582E9154D0FF300E66B2C /* Stamen_Maps.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 796582E7154D0FF300E66B2C /* Stamen_Maps.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		796582CD154D0FF200E66B2C /* Stamen Maps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stamen Maps.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		796582D1154D0FF200E66B2C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		796582D3154D0FF200E66B2C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		796582D5154D0FF200E66B2C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		796582D7154D0FF200E66B2C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		796582DB154D0FF300E66B2C /* Stamen Maps-Info.plist */ = {isa = PBXFileReference; path = "Stamen Maps-Info.plist"; sourceTree = "<group>"; };
+		796582DD154D0FF300E66B2C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		796582DF154D0FF300E66B2C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		796582E1154D0FF300E66B2C /* Stamen Maps-Prefix.pch */ = {isa = PBXFileReference; path = "Stamen Maps-Prefix.pch"; sourceTree = "<group>"; };
+		796582E2154D0FF300E66B2C /* StamenAppDelegate.h */ = {isa = PBXFileReference; path = StamenAppDelegate.h; sourceTree = "<group>"; };
+		796582E3154D0FF300E66B2C /* StamenAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StamenAppDelegate.m; sourceTree = "<group>"; };
+		796582E5154D0FF300E66B2C /* Stamen Maps.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Stamen Maps.entitlements"; sourceTree = "<group>"; };
+		796582E8154D0FF300E66B2C /* Stamen_Maps.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Stamen_Maps.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		796582CA154D0FF200E66B2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				796582D2154D0FF200E66B2C /* UIKit.framework in Frameworks */,
+				796582D4154D0FF200E66B2C /* Foundation.framework in Frameworks */,
+				796582D6154D0FF200E66B2C /* CoreGraphics.framework in Frameworks */,
+				796582D8154D0FF200E66B2C /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		796582C2154D0FF200E66B2C = {
+			isa = PBXGroup;
+			children = (
+				796582D9154D0FF300E66B2C /* Stamen Maps */,
+				796582D0154D0FF200E66B2C /* Frameworks */,
+				796582CE154D0FF200E66B2C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		796582CE154D0FF200E66B2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				796582CD154D0FF200E66B2C /* Stamen Maps.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		796582D0154D0FF200E66B2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				796582D1154D0FF200E66B2C /* UIKit.framework */,
+				796582D3154D0FF200E66B2C /* Foundation.framework */,
+				796582D5154D0FF200E66B2C /* CoreGraphics.framework */,
+				796582D7154D0FF200E66B2C /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		796582D9154D0FF300E66B2C /* Stamen Maps */ = {
+			isa = PBXGroup;
+			children = (
+				796582E2154D0FF300E66B2C /* StamenAppDelegate.h */,
+				796582E3154D0FF300E66B2C /* StamenAppDelegate.m */,
+				796582E7154D0FF300E66B2C /* Stamen_Maps.xcdatamodeld */,
+				796582DA154D0FF300E66B2C /* Supporting Files */,
+			);
+			path = "Stamen Maps";
+			sourceTree = "<group>";
+		};
+		796582DA154D0FF300E66B2C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				796582DB154D0FF300E66B2C /* Stamen Maps-Info.plist */,
+				796582DC154D0FF300E66B2C /* InfoPlist.strings */,
+				796582DF154D0FF300E66B2C /* main.m */,
+				796582E1154D0FF300E66B2C /* Stamen Maps-Prefix.pch */,
+				796582E5154D0FF300E66B2C /* Stamen Maps.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		796582CC154D0FF200E66B2C /* Stamen Maps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 796582EC154D0FF300E66B2C /* Build configuration list for PBXNativeTarget "Stamen Maps" */;
+			buildPhases = (
+				796582C9154D0FF200E66B2C /* Sources */,
+				796582CA154D0FF200E66B2C /* Frameworks */,
+				796582CB154D0FF200E66B2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stamen Maps";
+			productName = "Stamen Maps";
+			productReference = 796582CD154D0FF200E66B2C /* Stamen Maps.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		796582C4154D0FF200E66B2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Stamen;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Zach Williams";
+			};
+			buildConfigurationList = 796582C7154D0FF200E66B2C /* Build configuration list for PBXProject "Stamen Maps" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 796582C2154D0FF200E66B2C;
+			productRefGroup = 796582CE154D0FF200E66B2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				796582CC154D0FF200E66B2C /* Stamen Maps */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		796582CB154D0FF200E66B2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				796582DE154D0FF300E66B2C /* InfoPlist.strings in Resources */,
+				796582E6154D0FF300E66B2C /* Stamen Maps.entitlements in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		796582C9154D0FF200E66B2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				796582E0154D0FF300E66B2C /* main.m in Sources */,
+				796582E4154D0FF300E66B2C /* StamenAppDelegate.m in Sources */,
+				796582E9154D0FF300E66B2C /* Stamen_Maps.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		796582DC154D0FF300E66B2C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				796582DD154D0FF300E66B2C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		796582EA154D0FF300E66B2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		796582EB154D0FF300E66B2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		796582ED154D0FF300E66B2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Stamen Maps/Stamen Maps.entitlements";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Stamen Maps/Stamen Maps-Prefix.pch";
+				INFOPLIST_FILE = "Stamen Maps/Stamen Maps-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		796582EE154D0FF300E66B2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Stamen Maps/Stamen Maps.entitlements";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Stamen Maps/Stamen Maps-Prefix.pch";
+				INFOPLIST_FILE = "Stamen Maps/Stamen Maps-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		796582C7154D0FF200E66B2C /* Build configuration list for PBXProject "Stamen Maps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				796582EA154D0FF300E66B2C /* Debug */,
+				796582EB154D0FF300E66B2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		796582EC154D0FF300E66B2C /* Build configuration list for PBXNativeTarget "Stamen Maps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				796582ED154D0FF300E66B2C /* Debug */,
+				796582EE154D0FF300E66B2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		796582E7154D0FF300E66B2C /* Stamen_Maps.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				796582E8154D0FF300E66B2C /* Stamen_Maps.xcdatamodel */,
+			);
+			currentVersion = 796582E8154D0FF300E66B2C /* Stamen_Maps.xcdatamodel */;
+			path = Stamen_Maps.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 796582C4154D0FF200E66B2C /* Project object */;
+}
