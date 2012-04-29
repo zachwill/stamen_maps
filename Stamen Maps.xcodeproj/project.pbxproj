@@ -19,7 +19,6 @@
 		796582F0154D104B00E66B2C /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 796582EF154D104B00E66B2C /* Storyboard.storyboard */; };
 		796582F3154D10DF00E66B2C /* StamenMapsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 796582F2154D10DF00E66B2C /* StamenMapsViewController.m */; };
 		79E9A2FE154D1A5200526EF0 /* stamen.js in Resources */ = {isa = PBXBuildFile; fileRef = 796582F8154D148900E66B2C /* stamen.js */; };
-		79E9A300154D1D3500526EF0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 79E9A2FF154D1D3500526EF0 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,7 +39,6 @@
 		796582F1154D10DF00E66B2C /* StamenMapsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StamenMapsViewController.h; sourceTree = "<group>"; };
 		796582F2154D10DF00E66B2C /* StamenMapsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StamenMapsViewController.m; sourceTree = "<group>"; };
 		796582F8154D148900E66B2C /* stamen.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = stamen.js; sourceTree = "<group>"; };
-		79E9A2FF154D1D3500526EF0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = "Stamen Maps/README.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +59,6 @@
 		796582C2154D0FF200E66B2C = {
 			isa = PBXGroup;
 			children = (
-				79E9A2FF154D1D3500526EF0 /* README.md */,
 				796582D9154D0FF300E66B2C /* Stamen Maps */,
 				796582D0154D0FF200E66B2C /* Frameworks */,
 				796582CE154D0FF200E66B2C /* Products */,
@@ -170,7 +167,6 @@
 				796582DE154D0FF300E66B2C /* InfoPlist.strings in Resources */,
 				796582E6154D0FF300E66B2C /* Stamen Maps.entitlements in Resources */,
 				796582F0154D104B00E66B2C /* Storyboard.storyboard in Resources */,
-				79E9A300154D1D3500526EF0 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
