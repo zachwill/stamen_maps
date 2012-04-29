@@ -20,7 +20,8 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     webView.delegate = self;
-    NSString *stamen = @"http://maps.stamen.com/watercolor/#10/32.8156/-97.1507";
+    NSString *stamen = @"http://maps.stamen.com/watercolor/#11/32.8156/-97.1507";
+    NSString *_stamen = @"http://maps.stamen.com/watercolor/#13/37.7706/-122.3782";
     NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:stamen]];
     [webView loadRequest:request];
 }
@@ -43,7 +44,7 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-	return YES;
+    return UIInterfaceOrientationIsLandscape(interfaceOrientation);
 }
 
 @end

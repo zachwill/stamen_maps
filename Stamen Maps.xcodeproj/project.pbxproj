@@ -14,10 +14,10 @@
 		796582DE154D0FF300E66B2C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 796582DC154D0FF300E66B2C /* InfoPlist.strings */; };
 		796582E0154D0FF300E66B2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 796582DF154D0FF300E66B2C /* main.m */; };
 		796582E4154D0FF300E66B2C /* StamenAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 796582E3154D0FF300E66B2C /* StamenAppDelegate.m */; };
-		796582E6154D0FF300E66B2C /* Stamen Maps.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 796582E5154D0FF300E66B2C /* Stamen Maps.entitlements */; };
 		796582E9154D0FF300E66B2C /* Stamen_Maps.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 796582E7154D0FF300E66B2C /* Stamen_Maps.xcdatamodeld */; };
 		796582F0154D104B00E66B2C /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 796582EF154D104B00E66B2C /* Storyboard.storyboard */; };
 		796582F3154D10DF00E66B2C /* StamenMapsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 796582F2154D10DF00E66B2C /* StamenMapsViewController.m */; };
+		79C74A81154DE13C00954210 /* Stamen Maps.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 79C74A80154DE13C00954210 /* Stamen Maps.entitlements */; };
 		79E9A2FE154D1A5200526EF0 /* stamen.js in Resources */ = {isa = PBXBuildFile; fileRef = 796582F8154D148900E66B2C /* stamen.js */; };
 /* End PBXBuildFile section */
 
@@ -33,12 +33,12 @@
 		796582E1154D0FF300E66B2C /* Stamen Maps-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Stamen Maps-Prefix.pch"; sourceTree = "<group>"; };
 		796582E2154D0FF300E66B2C /* StamenAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StamenAppDelegate.h; sourceTree = "<group>"; };
 		796582E3154D0FF300E66B2C /* StamenAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StamenAppDelegate.m; sourceTree = "<group>"; };
-		796582E5154D0FF300E66B2C /* Stamen Maps.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Stamen Maps.entitlements"; sourceTree = "<group>"; };
 		796582E8154D0FF300E66B2C /* Stamen_Maps.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Stamen_Maps.xcdatamodel; sourceTree = "<group>"; };
 		796582EF154D104B00E66B2C /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		796582F1154D10DF00E66B2C /* StamenMapsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StamenMapsViewController.h; sourceTree = "<group>"; };
 		796582F2154D10DF00E66B2C /* StamenMapsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StamenMapsViewController.m; sourceTree = "<group>"; };
 		796582F8154D148900E66B2C /* stamen.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = stamen.js; sourceTree = "<group>"; };
+		79C74A80154DE13C00954210 /* Stamen Maps.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Stamen Maps.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +106,7 @@
 				796582DC154D0FF300E66B2C /* InfoPlist.strings */,
 				796582DF154D0FF300E66B2C /* main.m */,
 				796582E1154D0FF300E66B2C /* Stamen Maps-Prefix.pch */,
-				796582E5154D0FF300E66B2C /* Stamen Maps.entitlements */,
+				79C74A80154DE13C00954210 /* Stamen Maps.entitlements */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -165,8 +165,8 @@
 			files = (
 				79E9A2FE154D1A5200526EF0 /* stamen.js in Resources */,
 				796582DE154D0FF300E66B2C /* InfoPlist.strings in Resources */,
-				796582E6154D0FF300E66B2C /* Stamen Maps.entitlements in Resources */,
 				796582F0154D104B00E66B2C /* Storyboard.storyboard in Resources */,
+				79C74A81154DE13C00954210 /* Stamen Maps.entitlements in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
